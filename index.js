@@ -2,4 +2,9 @@ var Dog = require('./Dog');
 
 var myDog = new Dog('Bon');
 
-myDog.sayHi();
+var tom = {
+	name: 'Tom'
+};
+
+myDog.eat(tom);
+console.log(myDog.stomach);
