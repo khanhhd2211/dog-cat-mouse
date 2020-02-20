@@ -1,5 +1,5 @@
-function Dog() {
-	this.name = 'bon';
-}
+var Dog = require('./Dog');
 
-module.exports = Dog;
+var myDog = new Dog('Bon');
+
+myDog.sayHi();
