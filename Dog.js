@@ -6,7 +6,7 @@ function Dog(name) {
 }
 
 Dog.prototype.sayHi = function() {
-	console.log('Hi my name is',chalk.blue(this.name));
+	console.log('Hi my name is',chalk.red(this.name));
 };
 Dog.prototype.eat = function(item) {
 	this.stomach.push(item);
