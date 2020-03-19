@@ -1,0 +1,63 @@
+git init 
+git status
+git add <file>
+git commit -m""
+
+
+git log
+git show <commit id>
+git diff <file>
+
+
+
+git checkout --<file> : delete file in working dir
+git reset HEAD <file>: staging area to working dir
+
+
+gitk
+git checkout -b <branch name>: create branch: feature/something
+git branch : show branch
+git checkout <branch name> : change branch
+*MERGE* B to A
+step 1: git checkout <branch A>
+step 2: git merge B
+git branch -D <branch name> delete a branch
+
+
+
+git reset --soft <commit id>: chuyển các commit trên đầu về staging area
+git reset --mixed <commit id>: chuyển các commit trên đầu về working dir
+git reset --hard <commit id>: xóa các commit phía trên
+
+
+git revert <commit id>: tạo 1 con commit cũ dựa trên commit đã chọn, và xóa các dòng đã tạo từ commit cũ
+step 1:  git revert <commit id>
+step 2: Ctrl X
+
+
+
+.gitignore
+
+
+
+git clone <repo link>
+git push <branch master>
+git pull
+
+Push a branch
+git push origin <branch name>
+
+
+
+Pull request
+step 1: ấn New pull request
+step 2: sau khi kiểm tra ấn Merge pull request, confirm merge, xóa branch (online, local)
+
+Code review
+step 1: git remote -v
+step 2: git fetch <branch name>
+
+
+
+
+
